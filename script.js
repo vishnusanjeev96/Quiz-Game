@@ -45,6 +45,16 @@ document.addEventListener("DOMContentLoaded", () => {
       choices: ["India", "Brazil", "Vietnam", "Colombia"],
       answer: "Colombia",
     },
+    {
+      question: "What does the 'BlackBox' in an airplane record",
+      choices: [
+        "Passenger list",
+        "Fuel Level",
+        "flight data and cockpit voice",
+        "Engine Temperature only",
+      ],
+      answer: "flight data and cockpit voice",
+    },
   ];
 
   let currentQuestionIndex = 0;
