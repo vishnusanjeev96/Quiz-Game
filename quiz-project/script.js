@@ -39,6 +39,11 @@ document.addEventListener("DOMContentLoaded", () => {
       choices: ["Chennai", "Bangaluore", "Delhi", "Mumbai"],
       answer: "Delhi",
     },
+    {
+      question: "which country is the largest producer of coffee in the world",
+      choices: ["India", "Brazil", "Vietnam", "Colombia"],
+      answer: "Colombia",
+    },
   ];
 
   let currentQuestionIndex = 0;
@@ -95,3 +100,4 @@ document.addEventListener("DOMContentLoaded", () => {
     scoreDisplay.textContent = `${score} out of ${questions.length}`;
   }
 });
+
